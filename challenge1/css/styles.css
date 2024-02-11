@@ -21,9 +21,12 @@ li {
 }
 
 body {
+  display: flex;
   font-family: "Sora", sans-serif;
-  background-color: #cbd5e1;
+  background-color: #fafaf9;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
@@ -33,10 +36,11 @@ section {
   left: 0;
   right: 0;
   margin: auto;
-  background-color: #fafaf9;
-  width: 366px;
+  background-color: #ffffff;
+  width: 368px;
   height: fit-content;
   border-radius: 12px;
+  box-shadow: 10px 10px 40px -30px #6c727f;
 }
 
 section header {
@@ -52,7 +56,7 @@ section header {
 
 img {
   width: 100%;
-  height: auto;
+  height: 152px;
   object-fit: fill;
   border-radius: 12px;
   aspect-ratio: 429 / 194;
@@ -63,7 +67,7 @@ footer {
   padding-left: 16px;
   padding-bottom: 20px;
   color: #6c727f;
-  height: 60px;
+  height: 70px;
   align-items: flex-end;
 }
 
