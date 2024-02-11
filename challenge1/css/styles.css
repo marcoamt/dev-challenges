@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background-color: #cbd5e1;
+  min-height: 100vh;
+}
+
+section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fafaf9;
+  width: 366px;
+  height: fit-content;
+  border-radius: 12px;
+}
+
+section header {
+  margin: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 16px 20px 16px;
+  border-bottom: 1px solid #e5eaf0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  border-radius: 12px;
+  aspect-ratio: 429 / 194;
+}
+
+footer {
+  display: flex;
+  padding-left: 16px;
+  padding-bottom: 20px;
+  color: #6c727f;
+  height: 60px;
+  align-items: flex-end;
+}
+
+.tag-container {
+  display: flex;
+  width: fit-content;
+  padding: 6px 16px;
+  background-color: #e6d6fc;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: #6c727f;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 1.125rem;
+  margin-bottom: 6px;
+}
+
+.body {
+  font-size: 14px;
+  line-height: 0.875rem;
+  color: #6c727f;
+  font-weight: lighter;
+}
+
+.small-text {
+  font-size: 12px;
+  line-height: 0.75rem;
+}
+
+.tag {
+  font-size: 10px;
+  line-height: 0.625rem;
+  font-weight: bold;
+  color: #883ae1;
+}
