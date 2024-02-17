@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family:
+    "Sora",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+article {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px 56px 0px 56px;
+  gap: 40px;
+  background-color: #fafaf9;
+  place-items: center;
+}
+
+@media (width < 700px) {
+  body {
+    grid-template-columns: 1fr;
+    padding: 80px 26px 230px 26px;
+  }
+}
+
+.left header {
+  margin-bottom: 24px;
+}
+
+.star-review {
+  display: flex;
+  background-color: #f5c044;
+  width: 42px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.star-review p {
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.review-body {
+  color: #52525a;
+  font-weight: 400;
+}
+
+.right {
+  display: grid;
+  row-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    ". google google"
+    "meta meta .";
+}
+
+.checklist-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 14px;
+}
+
+.checklist-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 24px 32px;
+  box-shadow: 10px 10px 40px -30px #6c727f;
+  border-radius: 12px;
+}
+
+.review-container header {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.google-article {
+  grid-area: google;
+}
+
+.meta-article {
+  grid-area: meta;
+}
+
+.card-title {
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.heading {
+  font-size: 36px;
+  line-height: 2.25rem;
+}
+
+.body-text {
+  font-size: 20px;
+  line-height: 1.25rem;
+}
+
+.body-text2 {
+  font-size: 16px;
+  line-height: 1rem;
+}
+
+.list-item {
+  font-size: 14px;
+  line-height: 0.875rem;
+  color: #52525a;
+}
